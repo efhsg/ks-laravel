@@ -1,6 +1,6 @@
-# Kennissessie Laravel
+## Kennissessie Laravel
 
-## Wat is een framework
+### Wat is een framework
 *'De structuur waarop je een appliactie kunt bouwen'* 
 
 ## Voordelen
