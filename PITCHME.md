@@ -1,6 +1,12 @@
-Kennissessie Laravel
+# Kennissessie Laravel
 
-# Hallo Pascal 
+## Wat is een framework
+*'De structuur waarop je een appliactie kunt bouwen'* 
+
+## Voordelen
+* abstracts you from low level details
+
+Eloquent ORM
 
 ## The Kitchen Sink
 ##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
