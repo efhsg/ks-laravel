@@ -11,11 +11,11 @@ revealOptions:
 #### 2 augustus 2017
 <!--v-->
 ### Wat is een framework
-*De structuur waarop je een applicatie kunt bouwen*
+*'De structuur waarop je een applicatie kunt bouwen'*
 * Hulpmiddel om beter en sneller te ontwikkelen
 <br/><br/><span style="color:#e49436">Beter:</span> Je bouwt verder op een bewezen oplossing<br/>
 <span style="color:#e49436">Sneller:</span> generieke zaken zijn al opgelost<br/><br/>
-(MVC, routering, databasetoegang, beveiliging)<br/><br/>
+(MVC, routering, migrations en seeders, testtools, beveiliging)<br/><br/>
 * Focus op het domein/businessrules 
 
 <!--v-->
@@ -23,13 +23,17 @@ revealOptions:
 *Een gratis (opensource) PHP web framework*
 * MVC staat centraal
 * Modulair
-* Dedicated Dependency Manager
-* ORM (Object-relational mapping): Eloquent 
+* Dedicated Dependency Manager (IOC container)
+* Object-relational mapping: Eloquent 
  
 <!--v-->
 ## Voordelen
-* MVC
-* 
+* Goed gedocumenteerd (Laracasts)
+* Grote actieve gemeenschap
+* Krachtige en elegante syntax
+* Eenvoudige depedency injection (Facades)
+* Artisan
+ 
 <!--v-->
 #### Populariteit Frameworks - interesse
 <img src="img/laravel-best-php-framework.jpg"/>
@@ -42,4 +46,8 @@ wordpress.com 2016
 Coderseye 2017
 
 <!--s-->
-Nieuws!!
+```sh
+$ npm install --production
+$ npm run predeploy
+$ NODE_ENV=production node app
+```
