@@ -15,7 +15,7 @@ class TasksController extends Controller
     {
 
         $name = "Robert";
-        $tasks = Task::all();
+        $tasks = Task::incomplete()->where('desc', 'like', '%dashboard%')->get();
 
         return view('tasks.index', compact('name', 'tasks'));
 
