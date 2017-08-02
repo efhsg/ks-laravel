@@ -10,6 +10,12 @@ revealOptions:
 ## Kennissessie Laravel
 #### 2 augustus 2017
 <!--v-->
+### Agenda
+* Introductie Frameworks en Laravel
+* Technische architectuur 
+* Een simpele MVC applicatie met Laravel 5.4
+* Complexer voorbeeld: Koppelkans
+<!--s-->
 ### Wat is een framework
 *'De structuur waarop je een applicatie kunt bouwen'*
 * Hulpmiddel om beter en sneller te ontwikkelen
@@ -31,7 +37,7 @@ revealOptions:
 * Goed gedocumenteerd (Laracasts)
 * Grote actieve gemeenschap
 * Krachtige en elegante syntax
-* Eenvoudige depedency injection (Facades)
+* Eenvoudige depedency injection (IOC/Facades)
 * Artisan
  
 <!--v-->
@@ -44,10 +50,3 @@ wordpress.com 2016
 <img src="img/Survey coderseye PHP Frameworks 2017.png"/>
 
 Coderseye 2017
-
-<!--s-->
-```sh
-$ npm install --production
-$ npm run predeploy
-$ NODE_ENV=production node app
-```

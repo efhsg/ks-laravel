@@ -35,7 +35,7 @@ Route::get("/stplus", function () {
  
  });
  
- Blade
+ Blade:
  ```
  <h1>Hello {{$name}}!</h1>
  <ul>
@@ -46,6 +46,36 @@ Route::get("/stplus", function () {
      @endforeach
  </ul>
  ```
+ 
+ Migration:
+
+     const TABLE = 'tasks';
+ 
+     /**
+      * Run the migrations.
+      *
+      * @return void
+      */
+      public function up()
+     {
+         Schema::create(self::TABLE, function (Blueprint $table) {
+             $table->increments('id');
+             $table->text('desc');
+             $table->boolean('completed')->default(false);
+             $table->timestamps();
+         });
+     }
+ 
+     /**
+      * Reverse the migrations.
+      *
+      * @return void
+      */
+     public function down()
+     {
+         Schema::dropIfExists(self::TABLE);
+     }
+
  
  
  
