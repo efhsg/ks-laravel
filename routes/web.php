@@ -20,7 +20,7 @@ Route::get("/stplus", function () {
     $name = "Robert";
 //    $tasks = ['Preplanning in de agenda zetten', 'Standup bijwonen', 'Dashboard testen'];
 
-    $tasks = DB::table('tasks')->where('task', 'like', '%laravel%')->get();
+    $tasks = DB::table('tasks')->get();
 
 //    return $tasks;
 
@@ -32,6 +32,6 @@ Route::get("/stplus/{task}", function ($id) {
 
     $task = DB::table('tasks')->find($id);
 
-    return $task->task;
+    dd($task);
 
 });

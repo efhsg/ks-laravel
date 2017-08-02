@@ -69,7 +69,7 @@
 <ul>
     @foreach($tasks as $task)
         <li>
-            {{$task->task}}
+            <a href="stplus/{{$task->id}}">{{$task->task}}</a>
         </li>
     @endforeach
 </ul>
